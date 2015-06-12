@@ -1,6 +1,3 @@
----
-output: pdf_document
----
 # Average Signal Features for Samsung Galaxy S Smartphone
 
 
