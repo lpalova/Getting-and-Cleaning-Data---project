@@ -1,7 +1,10 @@
+---
+output: pdf_document
+---
 # Average Signal Features for Samsung Galaxy S Smartphone
 
 
-1.  **Overview**   
+## **Overview**   
 
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 Here we take data collected from the accelerometers from the Samsung Galaxy S smartphone and create a tidy data set 
@@ -15,7 +18,7 @@ The input files for the R script can be downloaded here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
-2. **Description of the Experiments**   
+## **Description of the Experiments**   
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -31,7 +34,7 @@ For each record it is provided:
 Please see detailed description of the experiments in the README.txt and features_info.txt files that 
 are included with the dataset (zip file above).
 
-3. **Creating a Tidy Data Set**
+## **Creating a Tidy Data Set**
 
 Here we merge the training and test sets to create one data set. 
 We average the time and frequency acceleration signal for each subject and activity and create a tidy data set.
