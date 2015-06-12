@@ -1,6 +1,3 @@
----
-output: pdf_document
----
 # **Code Book**
 
 The following variables are found in the tidy data set *set\_sum*:
